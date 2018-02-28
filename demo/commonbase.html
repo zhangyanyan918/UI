@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tpl.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>UI样式库-PC</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="../layui/css/layui.css"/>
+<link rel="stylesheet" type="text/css" href="css/css.css"/>
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../layui/layui.js"></script>
+<script type="text/javascript" src="../layui/modules.js"></script>
+<script type="text/javascript">
+      $(function () {
+          $('dd.layui-this').removeClass('layui-this');
+          $('dd>a').each(function () { 
+              if (this.href.indexOf(location.pathname)>0) {
+                  $(this).parents('dd').addClass('layui-this');return true;
+				  };
+          });
+      });
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+111
+<div class="demo-header">
+版本号：1.0.0（2018-02-11）　<a href="changelog.html" class="layui-btn layui-btn-normal icon-doc"><i class="layui-icon">&#xe60a;</i>更新日志</a><a href="#" class="layui-btn layui-btn-normal icon-download"><i class="layui-icon">&#xe601;</i>立即下载</a>
+</div>
+<div class="layui-side layui-bg-black">
+  <div class="layui-side-scroll">
+  <div class="header-logo"><img src="images/logo.png"/></div>
+    <ul class="layui-nav layui-nav-tree">
+      <li class="layui-nav-item layui-nav-itemed"> <a href="javascript:;">基础说明</a>
+        <dl class="layui-nav-child">
+          <dd><a href="doc.html">开始使用</a></dd>
+          <dd><a href="commonbase.html">公共基础类</a></dd>
+          <dd><a href="changelog.html">更新日志</a></dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item layui-nav-itemed"> <a href="javascript:;">页面元素</a>
+        <dl class="layui-nav-child">
+          <dd><a href="icon.html">图标</a></dd>
+          <dd><a href="btn.html">按钮</a></dd>
+          <dd><a href="badge.html">徽章</a></dd> 
+          <dd><a href="slider.html">轮播</a></dd>        
+          <dd><a href="form.html">表单</a></dd>
+          <dd><a href="date.html">日期与时间选择</a></dd>
+          <dd><a href="nav.html">导航/面包屑</a></dd>
+          <dd><a href="table-element.html">静态表格</a></dd>
+          <dd><a href="table.html">数据表格</a></dd>
+          <dd><a href="tab.html">选项卡</a></dd>
+          <dd><a href="paneltitle.html">标题+面板</a></dd>
+          <dd><a href="list.html;">列表</a></dd>
+          <dd><a href="progress.html">进度条</a></dd>
+          <dd><a href="steps.html">流程步骤</a></dd>
+          <dd><a href="timeline.html">时间线</a></dd>
+          <dd><a href="page.html">分页</a></dd>          
+          <dd><a href="upload.html">文件上传</a></dd>
+          <dd><a href="anim.html">动画</a></dd>
+        </dl>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="demo-cont">
+<!-- InstanceBeginEditable name="不同页面内容" -->
+<div class="cont-title">公共基础类</div>
+<!-- InstanceEndEditable -->
+</div>
+<div class="demo-footer">
+    <p>© 2018 APEX·ETM</p>
+</div>
+</body>
+<!-- InstanceEnd --></html>
